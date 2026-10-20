@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commissioni | Nome Laboratorio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="commissioni" data-pagina="commissioni">
+
+  <nav>
+    <a href="index.html" class="logo">🧶 Nome Laboratorio</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="uncinetto.html">Uncinetto</a></li>
+      <li><a href="perline.html">Perline</a></li>
+      <li><a href="commissioni.html" class="attivo">Commissioni</a></li>
+    </ul>
+  </nav>
+
+  <main class="contenitore">
+    <h1 class="titolo-sezione appare">Commissioni 💌</h1>
+    <p class="sottotitolo appare">Hai un'idea? Scrivimi e la realizziamo insieme!</p>
+
+    <div class="box appare">
+      <form action="https://formsubmit.co/email@prova" method="POST">
+        <input type="hidden" name="_subject" value="commissione">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="email">La tua email</label>
+        <input type="email" id="email" name="email" placeholder="tuaemail@esempio.it" required>
+
+        <label for="richiesta">La tua richiesta</label>
+        <textarea id="richiesta" name="richiesta" placeholder="Descrivi cosa vorresti: oggetto, colori, misure..." required></textarea>
+
+        <button type="submit" class="btn">Invia richiesta ✨</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="contatti">
+    <h3>Restiamo in contatto 💌</h3>
+    <p class="sottotitolo-footer">Scrivimi per una commissione, una curiosità o anche solo per salutarmi.</p>
+    <ul class="contatti-lista">
+      <li>📧 <a href="mailto:email@prova">email@prova</a></li>
+      <li>📸 <a href="https://instagram.com/" target="_blank" rel="noopener">@nome_laboratorio</a></li>
+      <li>💬 <a href="https://wa.me/393000000000" target="_blank" rel="noopener">WhatsApp</a></li>
+    </ul>
+    <div class="firma">Fatto con 🧶 e 💕</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
